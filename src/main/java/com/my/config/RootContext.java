@@ -30,7 +30,7 @@ public class RootContext {
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/springbasic?useUnicode=true&characterEncoding=utf8");
         dataSource.setUsername("taemin");
-        dataSource.setPassword("1234");
+        dataSource.setPassword("dev1q");
 
         return dataSource;
     }
