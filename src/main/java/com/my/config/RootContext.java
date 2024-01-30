@@ -28,9 +28,9 @@ public class RootContext {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/user_info?useUnicode=true&characterEncoding=utf8");
-        dataSource.setUsername("student");
-        dataSource.setPassword("Mulgom4004.");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/springbasic?useUnicode=true&characterEncoding=utf8");
+        dataSource.setUsername("taemin");
+        dataSource.setPassword("1234");
 
         return dataSource;
     }
